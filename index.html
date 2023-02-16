@@ -12,7 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <!--Div do cronômetro-->
+    <div class="container">
+      <h1>Cronômetro.js</h1>
+      <div class="time" id="minutes">00</div>
+      <div class="separator">:</div>
+      <div class="time" id="seconds">00</div>
+      <div class="separator">:</div>
+      <div class="time" id="miliseconds">000</div>
+      <div class="separator">:</div>
+    </div>
+
+    <!--Div dos botões-->
+    <div class="buttons">
+      <button class="btn" id="startBtn">Iniciar</button>
+      <button class="btn" id="pauseBtn">Pausar</button>
+      <button class="btn" id="resumeBtn">Continuar</button>
+      <button class="btn" id="resetBtn">Resetar</button>
+    </div>
     <!--BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
